@@ -7,8 +7,8 @@ SELECT nat_id, pokemon, hp, attack, defense, special_attack, special_defense, sp
 
 for nat_id, pokemon, hp, attack, defense, special_attack, special_defense, speed, total, type_i, type_ii, ability_i, ability_ii, hidden_ability, ev_worth, gender, egg_group_i, egg_group_ii, catch_rate, evolve in pokedex:
     print(f"""
-    Nat_id: {nat_id}
-    Pokemon: {pokemon}
+    Nat ID: {nat_id}
+    Pokémon: {pokemon}
     HP: {hp}
     Atk: {attack}
     Def: {defense}
@@ -16,16 +16,16 @@ for nat_id, pokemon, hp, attack, defense, special_attack, special_defense, speed
     SpD: {special_defense}
     Spe: {speed}
     Total: {total}
-    Type1: {type_i}
-    Type2: {type_ii}
-    Ability1: {ability_i}
-    Ability2: {ability_ii}
-    Hidden_Ability: {hidden_ability}
-    EV_Worth: {ev_worth}
+    Type 1: {type_i}
+    Type 2: {type_ii}
+    Ability 1: {ability_i}
+    Ability 2: {ability_ii}
+    Hidden Ability: {hidden_ability}
+    EV Worth: {ev_worth}
     Gender: {gender}
-    Egg_Group1: {egg_group_i}
-    Egg_Group2: {egg_group_ii}
-    Catch_Rate: {catch_rate}
+    Egg Group1: {egg_group_i}
+    Egg Group2: {egg_group_ii}
+    Catch Rate: {catch_rate}
     Evolve: {evolve}      
             
     """)
